@@ -9,7 +9,6 @@ private:
     Scope * head;
 public:
     List();
-    //~List();
     void addToList (Scope* ptrToScope);
     void print();
     void deleteLast();
